@@ -42,19 +42,3 @@ body, html {
 
 }
 
-/* Logos interactifs */
-.logo {
-  pointer-events: auto; /* autorise le hover */
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-}
-
-/* Hover */
-.logo:hover {
-  transform: scale(1.2);
-  filter: brightness(1.2);
-}
-
-/* Scroll zone */
-.scroll-space {
-  height: 300vh;
-}
